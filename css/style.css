@@ -1,0 +1,172 @@
+
+h1{
+font-family: 'Sacramento', sans-serif;
+font-size: 5.5rem;
+color: #66BFBF;
+margin:50px auto 0 auto;
+
+}
+h2{
+  font-family: 'Dancing Script', sans-serif;
+font-size:2.5rem;
+color:#66BFBF;
+font-weight: normal;
+margin-top: 70px;
+}
+
+h3{
+  font-family: 'Dancing Script', sans-serif;
+  color: #11999E;
+  font-size: 1.3rem;
+  font-weight:bold;
+  margin-bottom: 0;
+
+
+}
+body{
+  margin:0;
+  text-align:center;
+}
+
+a  {
+  color:#11999E;
+}
+
+p {
+  font-size: 1.3rem;
+margin-top: 17px;
+line-height: 2;
+font-weight:normal;
+}
+a:hover{
+  color:#EAF6F6;
+}
+
+hr {
+  border-style: dotted none none none;
+  width:7%;
+  color:#EAF6F6;
+  border-width:12px;
+
+}
+.top-container  {
+  position: relative;
+  background-color: #CDF0EA;
+  padding-top: 100px;
+}
+.profile  {
+  margin-bottom: 70px;
+}
+
+.skills  {
+  margin-top: 80px;
+}
+.middle-container  {
+  margin-top: 75px;
+  margin-bottom: 70px;
+
+}
+.skill-row {
+  width:50%;
+  margin:100px auto 100px auto;
+  text-align: left;
+
+}
+
+
+.comskill {
+  width:20%;
+  float: left;
+ margin-right:40px;
+}
+
+.math{
+  width:20%;
+  float: right;
+  margin-left: 35px;
+}
+
+.mybio{
+  width:30%;
+  margin:auto;
+}
+.top-cloud{
+  position:absolute;
+  right:360px;
+  top:50px;
+}
+
+.bottom-cloud{
+  position: absolute;
+  left:300px;
+  bottom:300px;
+}
+
+.myHeadPort{
+width: 30%;
+margin:auto;
+padding-top:50px;
+padding-bottom: 50px;
+}
+
+
+.btn {
+   background: #57B4B7;
+   background-image: -webkit-linear-gradient(top, #57B4B7, #10898D);
+   background-image: -moz-linear-gradient(top, #57B4B7, #10898D);
+   background-image: -ms-linear-gradient(top, #57B4B7, #10898D);
+   background-image: -o-linear-gradient(top, #57B4B7, #10898D);
+   background-image: -webkit-gradient(to bottom, #57B4B7, #10898D);
+   -webkit-border-radius: 10px;
+   -moz-border-radius: 10px;
+   border-radius: 10px;
+   color: #FFFFFF;
+    font-family: 'Dancing Script', sans-serif;
+   font-size: 16px;
+   font-weight: 500;
+   padding: 12px;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+   margin-top: 20px;
+}
+
+.bottom-container{
+  background-color: #66BFBF;
+padding: 65px 0 40px 0;
+
+}
+
+.footer{
+    font-family: 'Dancing Script', sans-serif;
+  color:#EAF6F6;
+  font-size:15px;
+  margin-top:40px;
+}
+
+.footer-link{
+    font-family: 'Dancing Script', sans-serif;
+  margin:auto 25px auto 25px;
+  font-size: 20px;
+  color:#11999E;
+  text-decoration: none;
+}
+.portfolio{
+  display:grid;
+grid-template-columns: auto auto;
+width: 50%;
+margin: auto;
+
+
+}
+.myWork_item{
+  overflow: hidden;
+}
+.myWork{
+  transition: transform 750ms cubic-bezier(.5,0,.5,1), opacity 250ms linear;
+}
+.myWork:hover{
+  transform: scale(1.2);
+  opacity: 0.75;
+}
